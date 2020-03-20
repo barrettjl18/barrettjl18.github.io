@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Copperplate Gothic;
+    background-color: blue;
+    height: 60px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
