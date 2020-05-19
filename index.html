@@ -9,11 +9,7 @@
     </title>
 
 <body>
- <div class="header">
-    Home
-    </div>
-
-<div id="mySidenav" class="sidenav">
+<div id="mySideNav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="#">Home</a>
     <a href="#">Sound</a>
@@ -21,8 +17,7 @@
     <a href="#">About</a>
     </div>
     
-<span onclick="openNav()">open</span>
-    
+
     <script>
     function openNav() {
         document.getElementById("mySideNav").style.width = "250px";
@@ -32,6 +27,13 @@
         document.getElementById("mySideNav").style.width = "0";
     }
     </script>
+    
+ <div class="header">
+<div class="openButton">   
+<span onclick="openNav()">open</span>
+    </div>
+     Home
+    </div>
     
 </body>
 
