@@ -27,13 +27,26 @@ body {
 }
 
 .openButton {
+    font-family: Arial;
+    font-size: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: white;
     float: left;
-    font-size: 15px
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+}
+
+.openButton:hover {
+    background-color: grey;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 30px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: white;
@@ -41,18 +54,21 @@ body {
     transition: 0.3s;
 }
 
-.sidenav a.hover {
-    color: pink;
+.sidenav a:hover {
+    background-color: lightgray;
 }
 
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: px;
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 170px;
 }
-
+    
+.sidenav .closebtn:hover {
+   background-color: grey; 
+}
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
