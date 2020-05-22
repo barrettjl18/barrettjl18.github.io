@@ -26,6 +26,20 @@ body {
     transition: 0.5s;
 }
 
+.sidenav a {
+    padding: 8px 8px 30px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
 .openButton {
     font-family: Arial;
     font-size: 30px;
@@ -41,21 +55,10 @@ body {
     border-color: black;
 }
 
-.openButton:hover {
-    background-color: grey;
-}
-
-.sidenav a {
-    padding: 30px 8px 8px 32px;
+.openbutton a {
     text-decoration: none;
-    font-size: 25px;
     color: white;
     display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    background-color: lightgray;
 }
 
 .sidenav .closebtn {
@@ -64,6 +67,7 @@ body {
     right: px;
     font-size: 36px;
     margin-left: 170px;
+    padding-bottom: 8px
 }
     
 .sidenav .closebtn:hover {
