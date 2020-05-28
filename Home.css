@@ -84,6 +84,20 @@ body {
     bottom: 60px;
 }
 
+.column {
+    float: left;
+    width: 50%;
+    background-color: white;
+    padding-bottom: 100px;
+    margin-top: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
