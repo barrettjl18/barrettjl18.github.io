@@ -86,10 +86,15 @@ body {
 
 .column {
     float: left;
-    width: 50%;
-    background-color: white;
+    width: 49%;
+    background-color: #959595;
     padding-bottom: 100px;
     margin-top: 15px;
+    color: black;
+}
+
+.right {
+    margin-left: 2%;
 }
 
 .row:after {
