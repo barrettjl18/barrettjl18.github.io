@@ -60,6 +60,7 @@ body {
 }
 
 .openbutton a {
+    font-style: normal;
     text-decoration: none;
     color: white;
     display: block;
@@ -82,6 +83,31 @@ body {
     position: absolute;
     width: 250%;
     bottom: 60px;
+}
+
+.column {
+    float: left;
+    width: 49%;
+    background-color: #959595;
+    padding-bottom: 100px;
+    margin-top: 15px;
+    color: black;
+}
+
+.right {
+    margin-left: 2%;
+    padding: 0%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image1 {
+    margin: 10px;
+    margin-bottom: 5px;
 }
 
 @media screen and (max-height: 450px) {
